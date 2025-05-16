@@ -529,9 +529,6 @@ video {
 .\!h-px {
   height: 1px !important;
 }
-.h-14 {
-  height: 3.5rem;
-}
 .h-4 {
   height: 1rem;
 }
@@ -556,8 +553,8 @@ video {
 .animate-spin {
   animation: spin 1s linear infinite;
 }
-.items-center {
-  align-items: center;
+.cursor-pointer {
+  cursor: pointer;
 }
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
