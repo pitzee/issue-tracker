@@ -22,7 +22,7 @@ const IssueDetailWrapper = ({ issue, isLoggedIn }: Props) => {
       {isLoggedIn && (
         <Box>
           <Flex direction="column" gap="4">
-            <AssigneeSelect />
+            <AssigneeSelect issue={issue} />
             <EditissueButton issueId={issue.id} />
             <DeleteIssueButton issueId={issue.id} />
           </Flex>
